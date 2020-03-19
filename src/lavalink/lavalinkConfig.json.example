@@ -1,9 +1,9 @@
 {
   "connection": [
       {
-        "host": "",
-        "port": "",
-        "password": ""
+        "host": "localhost",
+        "port": "5000",
+        "password": "youshallnodpass"
       }
     ]
 }
