@@ -1,6 +1,7 @@
 require('./src/ProtoTypes').start()
 
 const Client = require('./src/ChinoClient')
+const { TOKEN } = process.env;
 const ShardManager = require('./src/ShardManager')
 const config = require('./config')
 const client = new Client({
