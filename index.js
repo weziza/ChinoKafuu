@@ -12,6 +12,6 @@ if (client.shard) client.shardManager = new ShardManager(client)
 
 client.loadCommands('./src/commands')
 client.loadEvents('./src/events')
-client.login(config.token)
+client.login(TOKEN)
 	.then(() => console.log(`${client.shard ? ('Shard ' + client.shard.ids) : 'Bot'} is online.`))
 	.catch((e) => console.log(`Failure connecting to Discord! ${e.message}!`))
